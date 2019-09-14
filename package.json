@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "React Bot for webpage",
   "main": "index.js",
+  "engines":{
+    "node": "11.10.0",
+    "npm": "6.10.2"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
