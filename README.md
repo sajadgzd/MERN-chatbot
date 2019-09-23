@@ -23,6 +23,7 @@ This Full Stack application is designed to simulate conversation with human user
  * Dialogflow API
  * HTML
  * CSS
+   * Materialize
 
 <a name="installation"></a>
 ## Local Installation
