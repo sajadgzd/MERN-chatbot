@@ -27,7 +27,7 @@ class Chatbot extends Component {
 
         for (let msg of res.data.fulfillmentMessages){
             says = {
-                speaks: 'bot',
+                speaks: 'me',
                 msg: msg
             }
             this.setState({messages: [...this.state.messages, says]})
@@ -39,7 +39,7 @@ class Chatbot extends Component {
 
         for(let msg of res.data.fulfillmentMessages){
             let says = {
-                speaks: 'me',
+                speaks: 'bot',
                 msg: msg
             }
 
