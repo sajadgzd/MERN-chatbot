@@ -49,7 +49,7 @@ class Chatbot extends Component {
     }
 
     componentDidMount(){
-        this.df_event_query('Hello');
+        this.df_event_query('Welcome');
     }
 
     renderMessages(stateMessages){
